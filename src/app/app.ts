@@ -1,9 +1,9 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { PocComponent } from './modules/poc/poc.component';
 
 @Component({
   selector: 'app-root',
-  imports: [],
+  imports: [PocComponent],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })

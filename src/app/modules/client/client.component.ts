@@ -3,9 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-client',
   imports: [],
-  templateUrl: './client.html',
-  styleUrl: './client.scss',
+  templateUrl: './client.component.html',
+  styleUrl: './client.component.scss',
 })
-export class Client {
-
-}
+export class ClientComponent {}
